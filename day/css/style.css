@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+h2 {
+    font-size: 36px;
+}
+li {
+    list-style: none;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+select {
+    border-radius: 5px;
+    padding: 7px;
+    border: 1px solid #b5a6a6;
+}
+
+/* HEADER */
+header {
+    background-color: #d0cdcd;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-block ul {
+    display: flex;
+    gap: 25px;
+}
+
+.menu-block ul li {
+    padding: 7px 12px;
+}
+
+.menu-block ul li:first-child {
+    background-color: #30d1f1;
+    border-radius: 5px;
+}
+.menu-block ul li:first-child a {
+    color: #ffffff;
+}
+
+.menu-block ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+/*  END HEADER */
+
+/* REGISTRATION FORM */
+
+.personal-details-block h4 {
+    margin: 15px 0 10px 0;
+}
+
+.registration {
+    background-color: #93f5f5;
+}
+
+.registration-block {
+    background: #fff;
+    margin: 20px 0;
+    padding: 20px 30px;
+}
+
+.personal-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.personal-details-block .form-group {
+    width: 31%;
+}
+
+.personal-details input,
+.personal-details select {
+    width: 100%;
+}
+
+.address-block {
+    margin: 25px 0;
+}
+.permanent-address .form-group {
+    width: 100%;
+}
+
+.permanent-address input {
+    width: 100%;
+}
+
+.location {
+    display: flex;
+    gap: 25px;
+    margin: 20px 0;
+}
+
+.location .form-group {
+    width: 33%;
+}
+
+.location input,
+.location select {
+    width: 100%;
+}
+
+.marital-block {
+    display: flex;
+}
+.marital-block input {
+    width: unset;
+}
+.marital-block label {
+    width: 50%;
+}
+/* END REGISTRATION FORM */
+
+/* banner  */
+
+.banner {
+    background: url("https://d347bo4ltvvnaz.cloudfront.net/images/preview/Easter_PalmLeaf_Banner_1920x500.jpg");
+    padding: 40px 0;
+    background-repeat: no-repeat;
+}
+
+.banner-block {
+    display: flex;
+    align-items: center;
+}
+
+.banner-right,
+.banner-left {
+    width: 50%;
+}
+
+.banner-right img {
+    width: 80%;
+}
+.banner-left h1 span {
+    color: #d41449;
+}
+.banner-left p {
+    color: #fff;
+}
+.banner-left h1 {
+    margin: 20px 0 30px;
+    width: 70%;
+    color: #fff;
+}
+
+.banner-left button {
+    border: none;
+    padding: 12px 35px;
+    background: #d41449;
+    color: #fff;
+    border-radius: 6px;
+}
+
+/* end banner */
