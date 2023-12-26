@@ -300,3 +300,68 @@ ul {
 }
 
 /* END PRICING */
+
+/* FEEDBACK SECTIONS */
+
+.feedback-heading {
+    text-align: center;
+}
+
+.feedback-heading h2 {
+    margin: 20px 0;
+}
+
+.feedback-heading p {
+    color: #ccc;
+    font-weight: bold;
+}
+
+.feedback-block {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.feedback-item {
+    width: 30%;
+    text-align: center;
+}
+
+.feedback-item img {
+    width: 150px;
+    border-radius: 50%;
+}
+.feedback-item p {
+    margin: 20px 0;
+}
+.feedback-item h5 {
+    font-weight: 500;
+}
+
+/* END FEEDBACK SECTIONS */
+
+/* FOOTER */
+
+footer {
+    padding: 15px 0;
+}
+
+.footer-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-right ul {
+    display: flex;
+    gap: 25px;
+}
+.footer-right ul li {
+    font-size: 14px;
+}
+
+.social-icons ul {
+    display: flex;
+    gap: 20px;
+}
+
+/* END FOOTER */
